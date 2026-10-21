@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HydroSip – Same bottle. Smarter routine.</title>
+  <meta name="description" content="HydroSip turns the bottle you already love into a smart hydration companion. A student prototype from MCI Innsbruck.">
+  <meta property="og:title" content="HydroSip – Same bottle. Smarter routine.">
+  <meta property="og:description" content="A smart base and sleeve that notices when you drink and gently reminds you when you don't.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/hero-placeholder.svg">
+  <meta name="theme-color" content="#1F6E6C">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- 1. Header -->
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="logo" href="#top" aria-label="HydroSip home">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 4C32 4 12 28 12 41a20 20 0 0 0 40 0C52 28 32 4 32 4z" fill="#1F6E6C"/><path d="M24 42a9 9 0 0 0 8 9" fill="none" stroke="#DCEBE8" stroke-width="4" stroke-linecap="round"/></svg>
+        HydroSip
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#who">Who it's for</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="dashboard.html">Dashboard demo</a></li>
+        <li><a class="btn btn--primary btn--small" href="#waitlist">Join the waitlist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- 2. Hero -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <span class="hero-label">Prototype in development · MCI Innsbruck 2026</span>
+          <h1>Same bottle.<br>Smarter routine.</h1>
+          <p class="lead">HydroSip turns the bottle you already love into a smart hydration companion. It notices when you drink and gently reminds you when you don't.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#waitlist">Join the waitlist</a>
+            <a class="btn btn--ghost" href="#how">See how it works</a>
+          </div>
+        </div>
+        <img class="hero-img" src="assets/img/hero-placeholder.svg" width="400" height="480"
+             alt="Illustration of a water bottle in a silicone sleeve standing on the round HydroSip base with a soft glowing ring (placeholder)">
+      </div>
+    </section>
+
+    <!-- 3. Vision -->
+    <section class="section section--white vision" aria-label="Our vision">
+      <div class="container">
+        <span class="eyebrow">Our vision</span>
+        <blockquote>“We envision a future where everyone, regardless of age or lifestyle, can maintain healthy hydration habits effortlessly and independently.”</blockquote>
+      </div>
+    </section>
+
+    <!-- 4. Measure · Remind · Learn -->
+    <section class="section" aria-labelledby="mrl-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What it does</span>
+          <h2 id="mrl-title">Measure · Remind · Learn</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><ellipse cx="12" cy="17" rx="9" ry="3"/><path d="M3 17v1.5c0 1.7 4 3 9 3s9-1.3 9-3V17"/><path d="M9 14V5a3 3 0 0 1 6 0v9"/></svg></div>
+            <h3>Measure</h3>
+            <p>A smart scale base weighs your bottle and recognises drinking activity.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></div>
+            <h3>Remind</h3>
+            <p>A soft RGB light reminds you when it is time to drink, even without Wi-Fi.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+            <h3>Learn</h3>
+            <p>A simple dashboard shows your daily progress and weekly trend.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. How it works -->
+    <section class="section section--mint" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">How it works</span>
+          <h2 id="how-title">Three calm steps</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <div class="step-illu" style="background:var(--offwhite)">
+              <svg viewBox="0 0 120 120" aria-hidden="true"><ellipse cx="60" cy="104" rx="44" ry="9" fill="#1F6E6C"/><rect x="42" y="18" width="36" height="86" rx="13" fill="#fff" stroke="#9FC9C3" stroke-width="2"/><rect x="39" y="70" width="42" height="32" rx="9" fill="#E07A5F"/><path d="M60 4v8m0 0-4-4m4 4 4-4" stroke="#1F6E6C" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+            </div>
+            <span class="step-num">Step 1</span>
+            <h3>Slide in, set down</h3>
+            <p>Slide your bottle into the flexible silicone sleeve and place it on the HydroSip base. No new bottle needed.</p>
+          </li>
+          <li class="step">
+            <div class="step-illu" style="background:var(--offwhite)">
+              <svg viewBox="0 0 120 120" aria-hidden="true"><rect x="22" y="30" width="76" height="60" rx="14" fill="#fff" stroke="#9FC9C3" stroke-width="2"/><path d="M32 70l14-14 12 10 14-18 16 12" stroke="#1F6E6C" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="72" cy="48" r="4" fill="#E07A5F"/></svg>
+            </div>
+            <span class="step-num">Step 2</span>
+            <h3>It understands what happened</h3>
+            <p>HydroSip notices what really happened: a motion sensor ignores lifting and tilting, the scale compares stable weight readings, and the system tells a sip from a refill.</p>
+          </li>
+          <li class="step">
+            <div class="step-illu" style="background:var(--offwhite)">
+              <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="72" r="38" fill="#2E8C8A" opacity=".15"/><ellipse cx="60" cy="94" rx="40" ry="9" fill="#1F6E6C"/><ellipse cx="60" cy="90" rx="34" ry="6" fill="none" stroke="#7FE0D2" stroke-width="3"/><path d="M60 22s-14 16-14 26a14 14 0 0 0 28 0c0-10-14-26-14-26z" fill="#1F6E6C"/></svg>
+            </div>
+            <span class="step-num">Step 3</span>
+            <h3>A gentle glow</h3>
+            <p>A gentle glow reminds you to drink; your history syncs to your dashboard when a connection is available.</p>
+          </li>
+        </ol>
+        <p class="note"><strong>An honest note:</strong> Weight is an indirect measure. Spilling or pouring out can look like drinking, so HydroSip shows estimates, not medical data.</p>
+      </div>
+    </section>
+
+    <!-- 6. Who it's for -->
+    <section class="section" id="who" aria-labelledby="who-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Who it's for</span>
+          <h2 id="who-title">Made for everyday life – and the people you care about</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <h3>Everyday life</h3>
+            <p>Students and office workers who forget to drink during busy days.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 21s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.5-9 9-9 9z"/></svg></div>
+            <h3>Families</h3>
+            <p>Relatives who want parents or grandparents to drink enough, with a reminder that needs no smartphone.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Planned pilot use case</span>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M12 8v6M9 11h6"/></svg></div>
+            <h3>Care homes and hospitals</h3>
+            <p>An overview of who may be drinking too little, to support (not replace) care staff.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Why HydroSip -->
+    <section class="section section--white" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why HydroSip</span>
+          <h2 id="why-title">The best of both – with your own bottle</h2>
+        </div>
+        <div class="compare">
+          <article class="card">
+            <h3>Simple reminder clips</h3>
+            <ul>
+              <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Remind you to drink</li>
+              <li><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Don't measure what you drink</li>
+              <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Work with your own bottle</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Integrated smart bottles</h3>
+            <ul>
+              <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Remind you to drink</li>
+              <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Measure what you drink</li>
+              <li><svg class="no" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>You must buy their bottle</li>
+            </ul>
+          </article>
+          <article class="card card--hero">
+            <h3>HydroSip</h3>
+            <ul>
+              <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Reminds you to drink</li>
+              <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Measures what you drink</li>
+              <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Works with your own bottle</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Technology -->
+    <section class="section section--mint" id="technology" aria-labelledby="tech-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Technology</span>
+          <h2 id="tech-title">Under the hood, for the curious</h2>
+          <p class="muted">Offline-first: events are queued on the device and sent via Wi-Fi + MQTT/TLS when connected.</p>
+        </div>
+        <div class="flow" role="list">
+          <div class="flow-item" role="listitem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="8" y="5" width="8" height="16" rx="3"/><path d="M10 2h4v3h-4z"/></svg>
+            <div><strong>Bottle</strong><span>your own, in a sleeve</span></div>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"><span>↓</span></div>
+          <div class="flow-item" role="listitem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg>
+            <div><strong>Device</strong><span>measure, filter, remind</span></div>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"><span>↓</span></div>
+          <div class="flow-item" role="listitem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 18a5 5 0 0 1-.6-10A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9z"/><rect x="10" y="12" width="5" height="4" rx="1"/><path d="M11 12v-1.5a1.5 1.5 0 0 1 3 0V12"/></svg>
+            <div><strong>Secure cloud</strong><span>Supabase with row-level security</span></div>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"><span>↓</span></div>
+          <div class="flow-item" role="listitem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 16v-4M12 16V8M17 16v-6"/></svg>
+            <div><strong>Dashboard</strong><span>responsive, any screen</span></div>
+          </div>
+        </div>
+        <ul class="tech-list" aria-label="Components">
+          <li>Seeed XIAO ESP32-C3 microcontroller</li>
+          <li>Load cell + HX711 amplifier</li>
+          <li>BMA400 motion sensor</li>
+          <li>RGB status LED</li>
+          <li>Button for tare / calibration</li>
+          <li>300 mAh LiPo battery</li>
+          <li>Wi-Fi + MQTT/TLS</li>
+          <li>Supabase (row-level security)</li>
+          <li>Responsive dashboard</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 9. Dashboard teaser -->
+    <section class="section" aria-labelledby="teaser-title">
+      <div class="container teaser">
+        <div>
+          <span class="eyebrow">Dashboard</span>
+          <h2 id="teaser-title">See your day at a glance</h2>
+          <p class="lead">Daily progress, a weekly trend and every sip in one calm view.</p>
+          <a class="btn btn--primary" href="dashboard.html">Open the demo dashboard</a>
+        </div>
+        <div class="mock" aria-label="Illustrative dashboard preview">
+          <span class="mock-label">Illustrative interface</span>
+          <p class="muted" style="margin:0">Today</p>
+          <p class="mock-big" style="margin:0">1.2 L <span style="font-size:1rem;color:var(--muted)">of 2.0 L · 60%</span></p>
+          <div class="bar" role="img" aria-label="60 percent of daily goal"><span style="width:60%"></span></div>
+          <div class="mini-bars" aria-hidden="true">
+            <span style="height:70%"></span><span style="height:85%"></span><span style="height:55%"></span><span style="height:95%"></span><span style="height:75%"></span><span style="height:65%"></span><span class="today" style="height:60%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Waitlist -->
+    <section class="section section--mint" id="waitlist" aria-labelledby="waitlist-title">
+      <div class="container waitlist">
+        <div>
+          <span class="eyebrow">Waitlist</span>
+          <h2 id="waitlist-title">Be the first to try HydroSip</h2>
+          <p class="lead">We are building the prototype right now. Leave your details and we will let you know when there is something to try.</p>
+        </div>
+        <form class="form" name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
+          <input type="hidden" name="form-name" value="waitlist">
+          <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="f-role">I am interested as…</label>
+            <select id="f-role" name="interest" required>
+              <option value="" disabled selected>Please choose</option>
+              <option>Personal use</option>
+              <option>Buying for a family member</option>
+              <option>Care home or hospital</option>
+              <option>Company</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="f-msg">Message <span class="optional">(optional)</span></label>
+            <textarea id="f-msg" name="message"></textarea>
+          </div>
+          <label class="check">
+            <input type="checkbox" name="consent" value="yes" required>
+            <span>I agree that the HydroSip team may contact me by email about the project. I can withdraw this at any time.</span>
+          </label>
+          <button class="btn btn--primary" type="submit">Join the waitlist</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- 11. FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-title">Good questions</h2>
+        </div>
+        <div class="faq">
+          <details><summary>Does it fit my bottle?</summary><p>HydroSip is designed for common bottle sizes; two sleeve sizes are currently being tested.</p></details>
+          <details><summary>Does it work without Wi-Fi?</summary><p>Yes. Reminders run locally on the device. Your history syncs when a connection is available.</p></details>
+          <details><summary>Is it a medical device?</summary><p>No. HydroSip is a hydration reminder and shows estimates.</p></details>
+          <details><summary>How is it cleaned?</summary><p>Simply remove the bottle and clean it as usual. The electronics stay dry in the base.</p></details>
+          <details><summary>When can I buy it?</summary><p>We are building the prototype. Join the waitlist for updates.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 12. Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="#top">HydroSip</a>
+          <p style="margin-top:.75rem">HydroSip is a student project at MCI – The Entrepreneurial School®, Innsbruck. Prototype, not for sale.</p>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#imprint">Imprint</a></li>
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="dashboard.html">Demo</a></li>
+        </ul>
+      </div>
+      <div class="legal">
+        <div id="imprint"><h3>Imprint</h3><p>[to be completed]</p></div>
+        <div id="privacy"><h3>Privacy</h3><p>[to be completed]</p></div>
+      </div>
+      <p style="margin-top:24px">© <span data-year>2026</span> HydroSip student team</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
