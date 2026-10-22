@@ -99,14 +99,14 @@ function renderChart() {
     return;
   }
 
-  const colors = data.map((_, i) => (i === SAMPLE_DATA.todayIndex ? '#1F6E6C' : '#9FD1CB'));
+  const colors = data.map((_, i) => (i === SAMPLE_DATA.todayIndex ? '#173E65' : '#A9D6EE'));
   chart = new Chart(document.getElementById('week-chart'), {
     type: 'bar',
     data: {
       labels: SAMPLE_DATA.week.labels,
       datasets: [
         { label: 'Litres', data: data, backgroundColor: colors, borderRadius: 8, maxBarThickness: 44 },
-        { type: 'line', label: 'Goal', data: data.map(() => state.goal), borderColor: '#E07A5F', borderDash: [6, 6], pointRadius: 0, borderWidth: 2 }
+        { type: 'line', label: 'Goal', data: data.map(() => state.goal), borderColor: '#7A8A9A', borderDash: [6, 6], pointRadius: 0, borderWidth: 2 }
       ]
     },
     options: {
@@ -114,11 +114,11 @@ function renderChart() {
       maintainAspectRatio: false,
       animation: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? false : { duration: 500 },
       scales: {
-        y: { beginAtZero: true, ticks: { callback: (v) => v + ' L', color: '#4A5A5E' }, grid: { color: '#E6EEEC' } },
-        x: { ticks: { color: '#4A5A5E' }, grid: { display: false } }
+        y: { beginAtZero: true, ticks: { callback: (v) => v + ' L', color: '#4A5D70' }, grid: { color: '#E6EEF4' } },
+        x: { ticks: { color: '#4A5D70' }, grid: { display: false } }
       },
       plugins: {
-        legend: { labels: { color: '#1F2A2E', font: { family: 'DM Sans' } } },
+        legend: { labels: { color: '#12263D', font: { family: 'DM Sans' } } },
         tooltip: { callbacks: { label: (c) => c.dataset.label + ': ' + Number(c.raw).toFixed(1) + ' L' } }
       }
     }
